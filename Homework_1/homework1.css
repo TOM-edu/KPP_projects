@@ -1,0 +1,90 @@
+body { 
+    margin: 0 auto;
+    max-width: 1280px;
+    background-color: white;
+    font-family: "Roboto";
+    }
+    
+/* Верхнє меню */
+.menu {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Пункти меню */
+.menu a {
+    margin: 0 32px;
+    color: rgb(22, 160, 133);
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+/* Фотографія */
+.main-photo {
+    display: block;
+    width: 100%;
+    height: 790px;
+    object-fit: cover;
+}
+
+/* Текстовий блок */
+.content {
+    background-color: rgb(245, 246, 247);
+    text-align: center;
+    padding: 45px 100px 75px;
+}
+
+/* Заголовок */
+.content h1 {
+    margin: 0 0 30px;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+/* Параграфи */
+.content p {
+    max-width: 1060px;
+    margin: 0 auto 28px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.6;
+    letter-spacing: 2px;
+}
+
+/* Кнопка */
+.get-started {
+    width: 192px;
+    height: 51px;
+    margin-top: 15px;
+    background-color: rgb(22, 160, 133);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+.get-started:hover {
+    opacity: 0.7;
+}
+
+/* Нижня частина */
+footer {
+    padding: 35px 100px;
+    text-align: right;
+}
+
+footer p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
